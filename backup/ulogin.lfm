@@ -1,0 +1,76 @@
+object frmLogin: TfrmLogin
+  Left = 478
+  Height = 180
+  Top = 208
+  Width = 302
+  Caption = 'Login'
+  ClientHeight = 180
+  ClientWidth = 302
+  LCLVersion = '3.0.0.1'
+  object Label1: TLabel
+    Left = 40
+    Height = 15
+    Top = 24
+    Width = 43
+    Caption = 'Usuario:'
+  end
+  object Label2: TLabel
+    Left = 40
+    Height = 15
+    Top = 56
+    Width = 35
+    Caption = 'Senha:'
+  end
+  object edtUsuario: TEdit
+    Left = 88
+    Height = 23
+    Top = 24
+    Width = 179
+    OnClick = edtUsuarioClick
+    TabOrder = 0
+  end
+  object edtSenha: TEdit
+    Left = 88
+    Height = 23
+    Top = 56
+    Width = 180
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 104
+    Height = 15
+    Top = 84
+    Width = 150
+    Caption = 'Usuario ou senha incorretos!'
+    Visible = False
+  end
+  object Button1: TButton
+    Left = 88
+    Height = 25
+    Top = 104
+    Width = 75
+    Caption = 'Cancelar'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 88
+    Height = 25
+    Top = 136
+    Width = 180
+    Caption = 'Esqueci Minha Senha!'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+  object Button3: TButton
+    Left = 193
+    Height = 25
+    Top = 104
+    Width = 75
+    Caption = 'Entrar'
+    OnClick = Button3Click
+    TabOrder = 4
+  end
+end

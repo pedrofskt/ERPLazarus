@@ -1,0 +1,116 @@
+object frmTelaModelo: TfrmTelaModelo
+  Left = 1129
+  Height = 409
+  Top = 286
+  Width = 1043
+  Caption = 'Tela Modelo'
+  ClientHeight = 409
+  ClientWidth = 1043
+  Menu = frm
+  LCLVersion = '3.0.0.1'
+  WindowState = wsMaximized
+  object Panel1: TPanel
+    Left = 0
+    Height = 53
+    Top = 356
+    Width = 1043
+    Align = alBottom
+    Color = clBtnShadow
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 1024
+    Height = 25
+    Top = 640
+    Width = 75
+    Align = alCustom
+    Caption = 'NOVO'
+    Font.CharSet = ANSI_CHARSET
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 1104
+    Height = 25
+    Top = 640
+    Width = 75
+    Caption = 'GRAVAR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 1264
+    Height = 25
+    Top = 640
+    Width = 75
+    Caption = 'SAIR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 1184
+    Height = 25
+    Top = 640
+    Width = 75
+    Align = alCustom
+    Caption = 'EXCLUIR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object frm: TMainMenu
+    Left = 65504
+    Top = 368
+    object MenuItem1: TMenuItem
+      Caption = 'Cadastros'
+      object MenuItem5: TMenuItem
+        Caption = 'Cadastro De Produtos'
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'Cadastro De Clientes'
+      end
+      object MenuItem7: TMenuItem
+        Caption = 'Cadastro De Fornecedor'
+      end
+      object MenuItem8: TMenuItem
+        Caption = 'Vendedor'
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Manutenção'
+      object MenuItem9: TMenuItem
+        Caption = 'Cadastro De Usuario'
+      end
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Sobre'
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'Sair'
+      object MenuItem10: TMenuItem
+        Caption = 'Fechar Sistema'
+        OnClick = MenuItem10Click
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'Trocar De Usuario'
+      end
+    end
+  end
+end

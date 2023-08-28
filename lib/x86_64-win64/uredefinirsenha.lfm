@@ -1,0 +1,82 @@
+object FrmRedefinirSenha: TFrmRedefinirSenha
+  Left = 522
+  Height = 240
+  Top = 191
+  Width = 295
+  Caption = 'Redefinir Senha'
+  ClientHeight = 240
+  ClientWidth = 295
+  LCLVersion = '3.0.0.1'
+  object Label1: TLabel
+    Left = 57
+    Height = 15
+    Top = 48
+    Width = 43
+    Caption = 'Usuario:'
+  end
+  object Label2: TLabel
+    Left = 33
+    Height = 15
+    Top = 80
+    Width = 66
+    Caption = 'Nova Senha:'
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 15
+    Top = 112
+    Width = 92
+    Caption = 'Confirmar Senha:'
+  end
+  object Label4: TLabel
+    Left = 112
+    Height = 15
+    Top = 144
+    Width = 155
+    Caption = 'As senhas não correspondem'
+    Visible = False
+  end
+  object edtUsuarioRedefinirSenha: TEdit
+    Left = 112
+    Height = 23
+    Top = 48
+    Width = 152
+    OnClick = edtUsuarioRedefinirSenhaClick
+    TabOrder = 0
+  end
+  object edtNovaSenha: TEdit
+    Left = 112
+    Height = 23
+    Top = 80
+    Width = 152
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 1
+  end
+  object edtConfirmarSenha: TEdit
+    Left = 112
+    Height = 23
+    Top = 112
+    Width = 152
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 112
+    Height = 25
+    Top = 168
+    Width = 56
+    Caption = 'Cancelar'
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 176
+    Height = 25
+    Top = 168
+    Width = 91
+    Caption = 'Redefinir Senha'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+end

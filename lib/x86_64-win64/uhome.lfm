@@ -1,0 +1,51 @@
+object frmHome: TfrmHome
+  Left = 1088
+  Height = 446
+  Top = 203
+  Width = 727
+  Caption = 'Home'
+  Menu = MainMenu1
+  OnClose = FormClose
+  LCLVersion = '3.0.0.1'
+  WindowState = wsMaximized
+  object MainMenu1: TMainMenu
+    ParentBidiMode = False
+    Left = 65528
+    Top = 664
+    object MenuItem1: TMenuItem
+      Caption = 'Cadastro'
+      object MenuItem5: TMenuItem
+        Caption = 'Cadastro De Produtos'
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'Cadastro De Clientes'
+        OnClick = MenuItem6Click
+      end
+      object MenuItem7: TMenuItem
+        Caption = 'Cadastro De Fornecedor'
+      end
+      object MenuItem8: TMenuItem
+        Caption = 'Vendedor'
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Manutenção'
+      object MenuItem9: TMenuItem
+        Caption = 'Cadastro De Usuario'
+      end
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Sobre'
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'Sair'
+      object MenuItem10: TMenuItem
+        Caption = 'Fechar Sistema'
+        OnClick = MenuItem10Click
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'Trocar De Usuario'
+      end
+    end
+  end
+end

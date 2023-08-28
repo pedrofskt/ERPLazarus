@@ -1,0 +1,171 @@
+inherited frmCadastroDeClientes: TfrmCadastroDeClientes
+  Left = 1063
+  Height = 699
+  Top = 140
+  Width = 1195
+  Caption = 'Cadastro De Clientes'
+  ClientHeight = 699
+  ClientWidth = 1195
+  Color = clScrollBar
+  OnClose = FormClose
+  inherited Panel1: TPanel
+    Top = 646
+    Width = 1195
+  end
+  inherited Button1: TButton
+    Left = 840
+    Top = 656
+  end
+  inherited Button2: TButton
+    Left = 928
+    Top = 656
+  end
+  inherited Button3: TButton
+    Left = 1104
+    Top = 656
+  end
+  inherited Button4: TButton
+    Left = 1016
+    Top = 656
+  end
+  object Label1: TLabel[5]
+    Left = 342
+    Height = 15
+    Top = 80
+    Width = 21
+    Caption = 'CPF'
+  end
+  object Label2: TLabel[6]
+    Left = 273
+    Height = 15
+    Top = 120
+    Width = 90
+    Caption = 'NOME FANTASIA'
+  end
+  object Label3: TLabel[7]
+    Left = 281
+    Height = 15
+    Top = 156
+    Width = 82
+    Caption = 'RAZÃO SOCIAL'
+  end
+  object Label4: TLabel[8]
+    Left = 304
+    Height = 15
+    Top = 200
+    Width = 59
+    Caption = 'ENDEREÇO'
+  end
+  object Label5: TLabel[9]
+    Left = 304
+    Height = 15
+    Top = 240
+    Width = 54
+    Caption = 'TELEFONE'
+  end
+  object Label6: TLabel[10]
+    Left = 319
+    Height = 15
+    Top = 280
+    Width = 39
+    Caption = 'E-MAIL'
+  end
+  object edtCpf: TEdit[11]
+    Left = 400
+    Height = 23
+    Top = 80
+    Width = 208
+    TabOrder = 5
+  end
+  object edtNomeFantasia: TEdit[12]
+    Left = 400
+    Height = 23
+    Top = 120
+    Width = 536
+    TabOrder = 6
+  end
+  object edtRazaoSocial: TEdit[13]
+    Left = 400
+    Height = 23
+    Top = 156
+    Width = 536
+    TabOrder = 7
+  end
+  object edtEndereco: TEdit[14]
+    Left = 400
+    Height = 23
+    Top = 200
+    Width = 536
+    TabOrder = 8
+  end
+  object edtTelefone: TEdit[15]
+    Left = 400
+    Height = 23
+    Top = 240
+    Width = 208
+    TabOrder = 9
+  end
+  object edtEmail: TEdit[16]
+    Left = 400
+    Height = 23
+    Top = 280
+    Width = 536
+    TabOrder = 10
+  end
+  object Panel2: TPanel[17]
+    Left = 400
+    Height = 50
+    Top = 14
+    Width = 536
+    Caption = 'CADASTRO DE CLIENTES'
+    Color = clActiveCaption
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentBackground = False
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 11
+  end
+  object Label7: TLabel[18]
+    Left = 640
+    Height = 15
+    Top = 80
+    Width = 27
+    Caption = 'CNPJ'
+  end
+  object edtCpf1: TEdit[19]
+    Left = 688
+    Height = 23
+    Top = 80
+    Width = 248
+    TabOrder = 12
+  end
+  object Label8: TLabel[20]
+    Left = 618
+    Height = 15
+    Top = 240
+    Width = 49
+    Caption = 'CELULAR'
+  end
+  object edtTelefone1: TEdit[21]
+    Left = 688
+    Height = 23
+    Top = 240
+    Width = 248
+    TabOrder = 13
+  end
+  inherited frm: TMainMenu[22]
+    inherited MenuItem12: TMenuItem
+      inherited MenuItem13: TMenuItem
+        OnClick = MenuItem13Click
+      end
+    end
+  end
+  object MainMenu1: TMainMenu[23]
+    Left = 65480
+    Top = 64
+  end
+end
